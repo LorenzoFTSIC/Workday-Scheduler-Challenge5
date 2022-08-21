@@ -28,16 +28,53 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container" id="timeblockContainer">
       <!-- Timeblocks go here -->
-      <section class="row timeblock">
+      <section class="row timeblock" data-value="9" id="9am">
         <p class="col-1 hour d-flex align-items-center justify-content-center">9AM</p>
-        <p class="col-10 description d-flex justify-content-start present">Test Text</p>
+        <textarea class="col-10 text area description d-flex justify-content-start present"id = "9Text">Test Text</textarea>
         <button type="button" class="col-1 saveBtn">Save</button>
-      </section><section class="row timeblock">
+      </section>
+      <section class="row timeblock" data-value="10" id="10am">
         <p class="col-1 hour d-flex align-items-center justify-content-center">10AM</p>
-        <p class="col-10 description d-flex justify-content-start future">Test Text</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "10Text">Test Text</textarea>
         <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="11" id="11am">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">11AM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "11Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="12" id="12pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">12PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "12Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="13" id="1pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">1PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "1Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="14" id="2pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">2PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "2Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="15" id="3pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">3PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "3Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="16" id="4pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">4PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "4Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
+      <section class="row timeblock" data-value="17" id="5pm">
+        <p class="col-1 hour d-flex align-items-center justify-content-center">5PM</p>
+        <textarea class="col-10 text area description d-flex justify-content-start future"id = "5Text">Test Text</textarea>
+        <button type="button" class="col-1 saveBtn">Save</button>
+      </section>
     </div>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
